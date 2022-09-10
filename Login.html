@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/2972/2972222.png">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .main {
+            /* background-color: blue;*/
+            background-image: url("https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHN0dWR5aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+        }
+        
+        #main1 {
+            background-color: black;
+            color: white;
+            border-radius: 9px;
+            border-style: solid;
+            border-color: black;
+            margin-top: 40px;
+            margin-bottom: 10px;
+            margin-left: 30%;
+            margin-right: 25%;
+            padding-bottom: 50px;
+            height: 90%;
+            width: 40%;
+        }
+        /*.main4 {
+            margin-top: 5px;
+        }*/
+        
+        .main3 {
+            text-transform: uppercase;
+            padding-top: 55px;
+            padding-bottom: 25px;
+        }
+        
+        .container {
+            background-color: black;
+            color: white;
+            border-color: white;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        .loginbtn {
+            cursor: pointer;
+            height: 50px;
+            width: 25%;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border-radius: 5px;
+            border-style: solid;
+            border-color: white;
+        }
+        
+        .forgetpassword {
+            color: rgb(37, 37, 250);
+            text-decoration: none;
+        }
+        
+        .signup {
+            color: rgb(37, 37, 250);
+            text-decoration: none;
+        }
+        
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+        
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+            background: #00329e;
+            color: white;
+            border-radius: 10px;
+            height: 20px;
+            width: 20px;
+        }
+        
+        .fa-twitter {
+            background: #4f87ff;
+            color: white;
+            border-radius: 10px;
+            height: 20px;
+            width: 20px;
+        }
+        
+        .fa-instagram {
+            background: #fd029d;
+            color: white;
+            border-radius: 10px;
+            height: 20px;
+            width: 20px;
+        }
+        
+        .fa-linkedin {
+            background: #0047df;
+            color: white;
+            border-radius: 10px;
+            height: 20px;
+            width: 20px;
+        }
+        
+        .fa-youtube {
+            background: #f30000;
+            color: white;
+            border-radius: 10px;
+            height: 20px;
+            width: 20px;
+        }
+    </style>
+</head>
+
+<body class="main">
+    <div id="main1">
+        <div class="main2">
+            <div class="main3">
+                <center>
+                    <h1 class="main4">login</h1>
+                </center>
+
+            </div>
+            <br>
+            <div class="container">
+                <div class="email">
+                    <label>EMAIL: </label><input type="text" name="Email" placeholder="Enter your email" size="31" maxlength="15">
+                </div>
+                <br>
+                <div class="password">
+                    <label>PASSWORD: </label><input type="text" name="password" size="22" placeholder="Enter the password" minlength="8">
+                </div>
+                <br>
+                <div>
+                    <a class="forgetpassword" href="#" target="new tab">Forget Password?</a>
+                </div>
+                <br>
+                <div>
+                    <button class="loginbtn" href="#login" target="new tab" name="button" value="login" type="login">LOGIN</button>
+                </div>
+                <br>
+                <div class="socialmedia">
+                    <a href="#facebook" class="fa fa-facebook"></a>
+                    <a href="#instagram" class="fa fa-instagram"></a>
+                    <a href="#twitter" class="fa fa-twitter"></a>
+                    <a href="#linkedin" class="fa fa-linkedin"></a>
+                    <a href="#youtube" class="fa fa-youtube"></a>
+                </div>
+
+                <footer>
+                    <div>
+                        <p>Don't have an account? <a class="signup" href="#signup" target="new tab">SignUp</a></p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

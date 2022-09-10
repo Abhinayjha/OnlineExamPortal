@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/128/2972/2972222.png">
+    <title>Add Exam</title>
+    <style>
+        #AddExam {
+            color: white;
+            background-color: rgb(0, 0, 102);
+            margin: 0;
+            padding: 14px;
+            font-weight: bold;
+            font-size: larger;
+        }
+        
+        #footer {
+            color: white;
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 8px;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #Registration {
+            padding-left: 13vh;
+            padding-bottom: 10vh;
+        }
+        
+        #Registration1 {
+            padding-top: 33px;
+            padding-left: 65px;
+        }
+        
+        #submit {
+            color: white;
+            background-color: rgb(49, 133, 0);
+            border-radius: 6px;
+            border-color: rgb(0, 0, 0);
+            border-style: solid;
+            padding: 10px 60px;
+            font-weight: bolder;
+            font-size: 15px;
+            cursor: pointer;
+            /* margin-bottom: 240px;*/
+        }
+        
+        .container {
+            /* background-image: url("https://michiganvirtual.org/wp-content/uploads/2019/07/online-learning-illustration-Converted-1024x384.png");
+            background-repeat: no-repeat;*/
+            margin-top: 20px;
+            margin-bottom: 25px;
+            margin-left: 80px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            border-style: solid;
+            border-color: black;
+            /* padding-left: 5px;*/
+            width: 35vw;
+            height: 70vh;
+        }
+        
+        .foot {
+            padding: 0px 45px;
+        }
+        
+        .middle {
+            background-image: url("https://michiganvirtual.org/wp-content/uploads/2019/07/online-learning-illustration-Converted-1024x384.png");
+            background-repeat: no-repeat;
+            border-radius: 6px;
+            width: 34.2vw;
+            height: 20vh;
+            background-size: cover;
+            box-sizing: border-box;
+            margin: 5px 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="AddExam">
+        <div>
+            <label>Add Exam</label>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="middle">
+
+            </div>
+            <div id="Registration">
+                <h1 id="Registration1">
+                    Registration
+                </h1>
+                <br>
+                <br>
+                <label for="Exam Name">Exam Name: </label>
+                <input type="text" name="Exam Name" id="Exam Name" placeholder=" Ex:-IIT-JEE Exam" maxlength="10" size="25">
+                <br>
+                <br>
+                <label for="Exam Date">Exam Date: </label>
+                <abbr title="Write date in the form of DD-MM-YYYY">
+                    <input type="date" name="Exam Date" id="Exam Date" placeholder="14/01/2000" maxlength="27"
+                        size="27">
+                </abbr>
+                <br>
+                <br>
+                <label for="Exam Detail">Exam Detail: </label>
+                <input type="text" name="Exam Detail" id="Exam Detail" placeholder="Exam Detail" size="25">
+                <br>
+                <br>
+                <label for="Exam Center">Exam Center: </label>
+                <input type="text" name="Exam Center" id="Exam Center" placeholder="Ex:- Noida" size="25">
+                <br>
+                <Br>
+                <input id="submit" type="button" name="Submit" value="SUBMIT">
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div>
+            <p class="foot">Think Exam is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness
+                of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.</p>
+            <br>
+            <p>Copyright &copy; 1999-2022 by Reference Data. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
